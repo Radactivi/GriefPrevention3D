@@ -1,0 +1,18 @@
+claim-block-accrual:
+  amount: 100
+  max-limit: 1000
+
+new-player-claim-blocks: 100
+
+visualization:
+  particle: "FLAME"
+
+messages:
+  no-permission-break: "&cYou do not have permission to break blocks in this claim."
+  no-permission-place: "&cYou do not have permission to place blocks in this claim."
+  no-permission-interact: "&cYou do not have permission to interact with blocks in this claim."
+
+max-claim-blocks-by-permission:
+  default: 1000
+  griefprevention3d.max-accrued-claim-blocks.tier1: 2000
+  griefprevention3d.max-accrued-claim-blocks.tier2: 5000

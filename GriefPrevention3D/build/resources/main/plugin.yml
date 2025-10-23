@@ -1,0 +1,41 @@
+name: GriefPrevention3D
+version: 1.0
+main: com.example.griefprevention3d.GriefPrevention3D
+api-version: '1.21'
+depend: [FastAsyncWorldEdit]
+commands:
+  claim:
+    description: Main command for GriefPrevention3D.
+    usage: /claim <subcommand>
+permissions:
+  griefprevention3d.claim.create:
+    description: Allows players to create claims.
+    default: true
+  griefprevention3d.claim.abandon:
+    description: Allows players to abandon their claims.
+    default: true
+  griefprevention3d.claim.trust:
+    description: Allows players to trust other players in their claims.
+    default: true
+  griefprevention3d.claim.untrust:
+    description: Allows players to untrust other players in their claims.
+    default: true
+  griefprevention3d.claim.subdivide:
+    description: Allows players to subdivide their claims.
+    default: true
+  griefprevention3d.claim.blocks:
+    description: Allows players to check their claim block balance.
+    default: true
+
+  griefprevention3d.visualize:
+    description: Allows players to visualize claims with a stick.
+    default: true
+  griefprevention3d.admin.giveblocks:
+    description: Allows admins to give claim blocks to players.
+    default: op
+  griefprevention3d.admin.saveall:
+    description: Allows admins to save all claims to schematics.
+    default: op
+  griefprevention3d.admin.loadall:
+    description: Allows admins to load all claims from schematics.
+    default: op
