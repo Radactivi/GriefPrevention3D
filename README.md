@@ -13,12 +13,13 @@ GriefPrevention3D is a comprehensive grief prevention plugin for Minecraft serve
 *   **Advanced Protection:** Protects against explosions, pistons, and fluid flow.
 *   **FAWE Integration:** Save and load claims as schematics using FastAsyncWorldEdit.
 *   **Configurable:** Customize the plugin to your server's needs through the `config.yml` file.
+*   **In-game visualization** – "Stick-Rightclick" outlines, claim borders, and info messages
 
 ## Installation
 
 1.  Place the `GriefPrevention3D.jar` file in your server's `plugins` directory.
 2.  Install the latest version of [FastAsyncWorldEdit](https://www.spigotmc.org/resources/fastasyncworldedit.13932/).
-3.  Restart your server.
+3.  Restart the server and use a golden shovel on two corners to start claiming!
 
 ## Commands
 
